@@ -104,11 +104,6 @@ urlpatterns = [
 When users signup or reset their password, they will be sent an email with a link and verification code. Include email settings as environment variables or in your project's settings.py file. For example,
 
 mysite/settings.py
-----
-
-# Email settings
-# https://docs.djangoproject.com/en/3.1/topics/email/
-# https://docs.djangoproject.com/en/3.1/ref/settings/#email-host
 
 import os
 
